@@ -1,0 +1,17 @@
+@import "../../Assets/styles.scss";
+.container {
+  display: flex;
+  margin-bottom: 28px;
+  width: 100%;
+  label {
+    margin-right: 18px;
+  }
+  input[type="text"],
+  input[type="password"] {
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid $color-grey;
+    outline: none;
+  }
+}

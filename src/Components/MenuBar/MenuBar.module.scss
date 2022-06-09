@@ -1,0 +1,43 @@
+@import "../../Assets/styles.scss";
+
+.container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $color-white;
+
+  height: 80px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-sizing: border-box;
+  padding: 12px 48px;
+  display: flex;
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    img {
+      width: 47px;
+    }
+    .text {
+      font-weight: 700;
+      color: $color-grey;
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-left: 8px;
+    }
+  }
+  .menu {
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    transform: translateX(-50%);
+    display: flex;
+    a {
+      text-decoration: none;
+      color: $color-grey;
+      font-weight: 700;
+      font-size: 18px;
+      align-items: center;
+    }
+  }
+}

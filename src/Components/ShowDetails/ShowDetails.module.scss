@@ -1,0 +1,23 @@
+@import "../../Assets/styles.scss";
+
+.container {
+  display: flex;
+  .label {
+    display: flex;
+    color: $color-grey;
+    font-weight: 700;
+    margin: 0;
+    &::after {
+      content: ":";
+      margin: 0 4px;
+    }
+  }
+  .value {
+    margin: 0;
+    color: $color-black;
+    white-space: nowrap;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
